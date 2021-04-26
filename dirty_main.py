@@ -1,5 +1,5 @@
-from application import *
-from application.db import *
+from application import calculate_salary
+from application.db import get_employees
 import datetime
 
 calculate_salary()
