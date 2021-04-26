@@ -1,7 +1,6 @@
-from application import calculate_salary
-from application.db import get_employees
-import datetime
+from application import *
 
-calculate_salary()
-get_employees()
-print(datetime.datetime.now())
+
+if __name__ == '__main__':
+    calculate_salary()
+    get_employees()
