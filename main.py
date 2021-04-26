@@ -4,7 +4,7 @@ import datetime
 
 
 time = datetime.datetime.now()
+print(time)
 if __name__ == '__main__':
     calculate_salary()
     get_employees()
-    print(time)
